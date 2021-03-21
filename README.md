@@ -15,8 +15,8 @@ The goal of the project is to analyze metrics that can affect the manufacturing 
 
 ## Summary Statistics on Suspension Coils
 <p align="center">
-<img src = "https://github.com/caseychen3605/MechaCar_Statistical_Analysis/blob/main/Resources/total_summary_table.PNG"/>
-<img src = "https://github.com/caseychen3605/MechaCar_Statistical_Analysis/blob/main/Resources/lot_summary_table.PNG"/>
+<img src = "https://github.com/caseychen3605/MechaCar_Statistical_Analysis/blob/main/Resources/total_summary_table.PNG" width="500" height="100"/>
+<img src = "https://github.com/caseychen3605/MechaCar_Statistical_Analysis/blob/main/Resources/lot_summary_table.PNG" width="500" height="100"/>
 </p>
 
 The overall variance for the entire dataset indicates that the current manufacturing data meets the 100 pounds per square inch variance limitation. However, when separated into three lots, the third lot demonstrates a much higher variance. Because the lots are chosen randomly, there is a possiblity that a third of the lot does not meet the necessary suspension coils requirement.
@@ -24,11 +24,15 @@ The overall variance for the entire dataset indicates that the current manufactu
 
 ## T-Test on Suspension Coils
 ### T-Test on Entire Lot
-![T-Test](https://github.com/caseychen3605/MechaCar_Statistical_Analysis/blob/main/Resources/t-test.PNG)
+<p align="center">
+<img src="https://github.com/caseychen3605/MechaCar_Statistical_Analysis/blob/main/Resources/t-test.PNG">
+</p>
 At a significance level of 0.05, we fail to reject the null hypothesis since the p-value equals 0.06. Therefore, we cannot reject the fact that the sample mean may be equivalent to the true population mean. Another feature to note is the narrow confidence interval. Although a narrower confidence interval implies that there is a smaller chance of obtaining an observation within that interval, it provides greater accuracy than a wider interval.
 
 ### T-Test on Three Smaller Lots
-![Lots_T-Test](https://github.com/caseychen3605/MechaCar_Statistical_Analysis/blob/main/Resources/lots_t_test.PNG)
+<p align="center">
+<img src="https://github.com/caseychen3605/MechaCar_Statistical_Analysis/blob/main/Resources/lots_t_test.PNG">
+</p>
 #### Lot 1
 At a significance level of 0.05, we fail to reject the null hypothesis since the p-value equals 1. An interesting correlation between p-value and confidence intervals is that as the p-values get larger, the confidence interval becomes smaller, implying more precision in predicting the true population mean.
 
